@@ -1,0 +1,75 @@
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.roulet {
+	height: 135px !important; 
+	text-align: left;
+	white-space: nowrap;
+}
+.weaponline {
+	position: absolute; 
+	margin-left: 330px; 
+	width: 3px; 
+	height: 140px !important; 
+	background: #db073d;
+}
+.weaponbox {
+	width: 125px;
+	margin: 5px;
+	display:inline-block;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 1);
+}
+.weaponheader {
+	height: 125px; 
+	background: #013342;
+
+}
+
+.rounditems{
+  outline: 0px solid;
+  margin: auto;
+  max-width: 1000px;
+  position: relative;
+}
+
+.players-percent {
+    overflow: hidden;
+    position: relative;
+    width: 1000px;
+	height: 100px;
+	  background-color: rgba(0, 0, 0, 0.2);
+}
+.players-tape {
+    height: 100px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 90;
+}
+.players-percent-block {
+    display: inline-block;
+    height: 80px;
+    margin: 10px 6px;
+    position: relative;
+    width: 80px;
+}
+.players-percent-block img {
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 80px;
+}
+.players-percent-text {
+    background: none repeat scroll 0 0 rgba(33, 49, 55, 0.85);
+    color: #8ec7d2;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 56px;
+    width: 80px;
+}

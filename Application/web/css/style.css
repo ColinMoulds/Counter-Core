@@ -1,0 +1,419 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+@font-face {
+	
+  font-family: digital;
+  src: url(digital.ttf);
+}
+
+.text-red{color:red}a.text-red:focus,a.text-red:hover{color:red}
+.text-green{color:green}a.text-green:focus,a.text-green:hover{color:green}
+
+.lato{
+font-family: 'Lato', sans-serif;
+}
+
+.jsans{
+font-size:18px;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.oz{
+font-family: 'Oswald', sans-serif;
+}
+
+.mst{
+font-family: 'Montserrat', sans-serif;
+}
+.highlight {
+  color: LFFF;
+  background-color: #C00;
+	-webkit-opacity: 0.45;
+-moz-opacity: 0.45;
+opacity: 0.45;
+-webkit-transition: all 0.4s ease;
+-moz-transition: all 0.4s ease;
+-ms-transition: all 0.4s ease;
+-o-transition: all 0.4s ease;
+transition: all 0.4s ease;
+}
+.youwin{font-size:15px;   background-color: #8FBC8F;  -webkit-opacity: 1;
+-moz-opacity: 1;
+opacity: 1;
+}
+
+div.centered 
+{
+    text-align: center;
+}
+
+div.centered table 
+{
+    margin: 0 auto; 
+    text-align: left;
+}
+
+		  
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  width: 160px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+
+
+
+.profil img{
+margin-left: 5%;
+border: 1px solid white;
+width: 10%;
+}
+
+.profil a{
+text-align: left;
+display: block;
+}
+
+.profil h2.name{
+display: inline-block;
+color: #fff;
+margin-left: 5%;
+}
+
+.profil p.joined{
+color: #fff;
+font-size: 0.9vw;
+text-align: right;
+}
+
+.profil a.view{
+display: block;
+text-align: center;
+font-size: 1.5vw;
+}
+
+.profil table{
+color: #fff;
+font-size: 1.2vw;
+margin: 3% auto;
+width: 70%;
+text-align: center;
+}
+
+.profil table tr{
+border-top: 1px solid #d2d2d2;
+}
+
+.profil table tr:first-child{
+border-top: 0!important;
+}
+
+.profil table tr td{
+border-top: 0!important;
+}
+
+.head{
+background-image: url(assets/images/prof1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 2%;
+margin-bottom: 3%;
+border: 1px solid white;
+}
+article.won{
+	padding: 1% 0 0 1%;
+	color: #000;
+	margin: 0 auto;
+	margin-bottom: 2%;
+}
+
+article.won .deposit{
+	width: 100%;
+	margin: 0;
+}
+
+article.won .deposit .hitem{
+	width: 8%;
+	font-size: 12px;
+}
+
+article.won .deposit .hitem img{
+	margin-left: 12%;
+}
+
+/*footer{
+	position: fixed;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	height: 3%;
+	text-align: center;
+	bottom: 0;
+	z-index: 3;
+}*/
+
+
+
+article.round h1{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 40px;
+	padding: 1% 1% 2% 1%;
+}
+
+article.history h1{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 40px;
+	padding: 1% 1% 2% 1%;
+}
+
+article.dep{
+	margin: 0 auto;
+	font-size: 23px;
+	padding: 3% 3% 3% 3%;
+}
+article.us1{
+	margin: 0 auto;
+	font-size: 12px;
+	padding: 3% 3% 3% 3%;
+}
+
+
+.us1 img{
+	float: left;
+	border: 1px solid white;
+	padding: 0%;
+	width: 8%;
+    height: auto;
+	position: relative;
+	margin-left: 30%;
+}
+.us1 p{
+	display: table;
+	margin-top: 0.6%;
+	margin-left: 40%;
+}
+
+article.us2{
+	color: black;
+	margin: 0 auto;
+	font-size: 12px;
+	padding: 3% 3% 3% 3%;
+}
+
+article.p1{
+	margin: 0 auto;
+	font-size: 12px;
+	padding: 3% 3% 3% 3%;
+}
+article.pa1{
+	margin: 0 auto;
+	font-size: 12px;
+	padding: 1.2% 1.2% 0.5% 1.2%;
+}
+
+.p1i img{
+	float: left;
+	border: 1px solid white;
+	padding: 0%;
+	width: 8%;
+    height: auto;
+	position: relative;
+	margin-left: 30%;
+}
+.p1 p{
+	display: table;
+	margin-top: 0.6%;
+	margin-left: 40%;
+}
+article.p2{
+	margin: 0 auto;
+	font-size: 12px;
+	padding: 3% 3% 3% 3%;
+}
+
+.p2 img{
+	float: left;
+	border: 1px solid white;
+	padding: 0%;
+	width: 8%;
+    height: auto;
+	position: relative;
+	margin-left: 25%;
+}
+.p2 p{
+	display: table;
+	margin-top: 2.1%;
+	margin-left: 35%;
+}
+.datas{
+	margin:0;
+	padding: 0;
+	width: 100%;
+	float: left;
+	text-align: left;
+}
+
+.datas p{
+	display: table;
+	margin-top: 1%;
+	margin-left: 26%;
+}
+
+.datas img{
+	float: left;
+	border: 1px solid white;
+	padding: 0%;
+	width: 12%;
+    height: auto;
+	position: relative;
+	margin-left: 2%
+}
+.hitem{
+	width: 15%;
+	height: auto;
+	background: rgba(0,0,0,0.5);
+	margin: 1%;
+	display: inline-block;
+}
+.hitem img{
+	margin-left: 10%;
+}
+
+.hitem:hover{
+	background: #577AB3;
+}
+.hitem div.price{
+	text-align: left;
+	width: 60%;
+	background: #2ab3f7;
+	padding:0;
+	padding-left: 8%;
+	font-size: 12px;
+
+}
+article.dep{
+	margin: 0 auto;
+	font-size: 23px;
+	padding: 3% 3% 3% 3%;
+}
+.outline{
+	font-weight: bold;
+	color: #fff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.dpbtn {
+  background: #3fc737;
+  background-image: -webkit-linear-gradient(top, #3fc737, #30b34f);
+  background-image: -moz-linear-gradient(top, #3fc737, #30b34f);
+  background-image: -ms-linear-gradient(top, #3fc737, #30b34f);
+  background-image: -o-linear-gradient(top, #3fc737, #30b34f);
+  background-image: linear-gradient(to bottom, #3fc737, #30b34f);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 31px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.dpbtn:hover {
+  background: #6be094;
+  background-image: -webkit-linear-gradient(top, #6be094, #52b58d);
+  background-image: -moz-linear-gradient(top, #6be094, #52b58d);
+  background-image: -ms-linear-gradient(top, #6be094, #52b58d);
+  background-image: -o-linear-gradient(top, #6be094, #52b58d);
+  background-image: linear-gradient(to bottom, #6be094, #52b58d);
+  text-decoration: none;
+}
+
+.ntbtn {
+  background: #de2a2a;
+  background-image: -webkit-linear-gradient(top, #de2a2a, #942828);
+  background-image: -moz-linear-gradient(top, #de2a2a, #942828);
+  background-image: -ms-linear-gradient(top, #de2a2a, #942828);
+  background-image: -o-linear-gradient(top, #de2a2a, #942828);
+  background-image: linear-gradient(to bottom, #de2a2a, #942828);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 31px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.ntbtn:hover {
+  background: #d45b5b;
+  background-image: -webkit-linear-gradient(top, #d45b5b, #c74444);
+  background-image: -moz-linear-gradient(top, #d45b5b, #c74444);
+  background-image: -ms-linear-gradient(top, #d45b5b, #c74444);
+  background-image: -o-linear-gradient(top, #d45b5b, #c74444);
+  background-image: linear-gradient(to bottom, #d45b5b, #c74444);
+  text-decoration: none;
+}
