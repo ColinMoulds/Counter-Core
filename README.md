@@ -1,3 +1,5 @@
+<p align="center"><img width=12.5% src="https://github.com/ColinMoulds/Counter-Core/blob/master/Media/logo.png"></p>
+
 [![Build Status](https://img.shields.io/badge/build-passed-brightgreen.svg)](https://github.com/ColinMoulds/Counter-Core/tree/master/Application)
 [![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://github.com/ColinMoulds/Counter-Core#prerequisites)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/ColinMoulds/Counter-Core/graphs/contributors)
