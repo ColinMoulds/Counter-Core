@@ -14,12 +14,16 @@ What things you need to install the software
 1GB RAM VPS
 Ubuntu 14.04 x64 (recommended)
 ```
+### Installation
 
-### Installing
+Clone the repository & copy over the Application folder.
 
-This is the part of the guide that will help you setup your LAMP enviroment for the software.
+This is the Folder that contains all the necessary files for the system.
 
-First we will start off with the commands.
+### Deployment
+
+This is the part of the guide will help you deploy the system on a VPS.
+
 ```
 sudo apt-get update 
 sudo apt-get install apache2 
@@ -63,3 +67,22 @@ you have the same details on both places.
 #10.: cd /var/www/server
 #11.: forever start server.js
 ```
+
+## Built With
+
+* [Node](https://github.com/nodejs/node/blob/master/README.md) - JavaScript Web Runtime
+* [Npm](https://github.com/npm/npm) - Package Managemer
+
+## Authors
+
+*Initial work* - [Colin Moulds](https://github.com/ColinMoulds)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone who's code was used
+* Inspiration
+* Coffee
