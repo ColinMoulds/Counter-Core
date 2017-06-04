@@ -57,8 +57,9 @@ you have the same details on both places.
 #4.: Check core.php, edit the details required there.   
 #5.: Go to your endround.php and set your rsecret.   
 #6.: Go to steamauth/settings.php, set it up correctly.   
-#7.: Open js/script.js and add your server's domain there, with the correct port. Please note: CloudFlare only allows certain ports.   
-#8.: Open your server.js and edit all the details: the port it listents to, mysql information, sitepath, rsecret and other custom things.   
-#9.: Log in to your VPS, navigate to your sever.js and run your server.js
-     "node server.js" - > to test and see if it works, once it works we recommend using forever.js - > "forever start server.js"
+#7.: Open js/script.js and add your server's domain there, with the correct port.
+#8.: Open your server.js and edit all the details required.
+#9.: Log in to your VPS console
+#10.: cd /var/www/server
+#11.: forever start server.js
 ```
