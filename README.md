@@ -78,6 +78,7 @@ you have the same details on both places.
 ### Optional Addons
 
 [Counter Core Deposit & Withdraw Addon](https://github.com/ColinMoulds/Counter-Core-Deposit-Withdraw)
+
 [Counter Core Coinflip Addon](https://github.com/ColinMoulds/Counter-Core-Coinflip)
 
 ## Built With
