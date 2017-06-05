@@ -75,6 +75,10 @@ you have the same details on both places.
 #10.: cd /var/www/server
 #11.: forever start server.js
 ```
+### Optional Addons
+
+[Counter Core Deposit & Withdraw Addon](https://github.com/ColinMoulds/Counter-Core-Deposit-Withdraw)
+[Counter Core Coinflip Addon](https://github.com/ColinMoulds/Counter-Core-Coinflip)
 
 ## Built With
 
