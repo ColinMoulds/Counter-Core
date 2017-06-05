@@ -81,6 +81,8 @@ you have the same details on both places.
 
 [Counter Core Coinflip Addon](https://github.com/ColinMoulds/Counter-Core-Coinflip)
 
+[Counter Core Roulette Addon](https://github.com/ColinMoulds/Counter-Core-Roulette)
+
 ## Built With
 
 * [Node](https://github.com/nodejs/node/blob/master/README.md) - JavaScript Web Runtime
