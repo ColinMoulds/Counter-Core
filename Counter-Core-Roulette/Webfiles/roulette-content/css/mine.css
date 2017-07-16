@@ -1,0 +1,444 @@
+html {
+    position: relative;
+    min-height: 100%
+}
+a {
+    color: #5491cf
+}
+.hidden {
+	display: none;
+}
+.rounded {
+    border-radius: 4px
+
+
+}
+.ball {
+    color: #fff;
+    cursor: default;
+    border-radius: 45px;
+    border: 1px solid transparent;
+    width: 45px;
+    height: 45px;
+    background-color: #000;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 700;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    margin: 1px
+}
+.td-val {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700
+}
+.ball-1 {
+	background-color:#c9302c;
+}
+.ball-0{
+	background-color: #449d44;
+}			
+.ball-8{
+	background: #444;
+}
+.footer img{
+	height:32px;
+	margin-top:6px;
+}
+.footer{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: 20px;
+	margin:0px;
+	margin-bottom: -6px;
+    border-right: 0px;
+    border-radius: 0px;
+}
+.placeholder {
+    width: 110px;
+    height: 110px;
+    background-color: #777;
+    display: inline-block;
+    margin: 1px
+}
+.bricks .placeholder {}.placeholder:empty {}.slot {
+    width: 110px;
+    height: 110px;
+    background-position: 0px 15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+    background-color: #333
+
+}
+.name {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #333;
+    color: #ddd
+
+}
+.price {
+    text-align: center;
+
+
+
+    position: absolute;
+    color: #fff;
+    top: 0px;
+    right: 0px;
+    padding: 2px;
+    border-bottom-left-radius: 4px
+
+
+
+
+
+}
+.bot {
+
+    text-align: center;
+    position: absolute;
+    color: #fff;
+
+
+
+
+
+
+
+
+
+
+    top: 0px;
+    left: 0px;
+    padding: 2px;
+    border-bottom-right-radius: 4px;
+    color: #ddd
+}
+
+
+
+
+
+
+
+
+
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+.matched {}.fw-6 {
+    display: inline-block;
+    width: 704px
+
+}
+.fw-4 {
+    display: inline-block;
+    width: 480px
+}
+.float-space {
+    overflow: hidden
+
+
+
+}
+.slot-group {
+    clear: both;
+    font-size: 0px;
+    padding: 0px;
+    margin-top: 3px;
+    margin-bottom: 3px
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.chat-link,
+.chat-link:hover,
+.chat-link:active {
+    color: #333
+}
+.chat-link-mod {
+    color: #e00
+}
+.chat-link-pmod {
+    color: #00c0ff
+}
+.chat-link-streamer {
+    color: #9b66ff
+}
+.chat-link-vet {
+    color: #ff9000
+}
+.chat-link-pro {
+    color: #00c
+}
+.chat-link-yt {
+    color: #cc181e
+}
+.total-row {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow: hidden
+}
+.my-row {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding: 10px
+}
+.betlist {
+    margin-bottom: 0px;
+    border-bottom: none
+}
+.betlist .list-group-item {
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+
+    border-bottom: none
+}
+#pointer{
+    width:3px;
+    background: yellow;
+    position: absolute;
+    left:50%;
+    top:0px;
+    height:100%;
+	z-index: 99
+}				
+.hist{
+	height:32px;
+	width:32px;
+	display:inline-block;
+	margin:5px;
+}
+#banner{
+	font-weight: 700;
+	font-size: 18px;
+	position:absolute;
+	left:0px;
+	width:100%;
+	text-align:center;
+	line-height:50px;
+}
+.side-icon{
+	width:100%;
+	height:50px;
+	text-align:center;
+	line-height: 50px;
+}
+.side-icon:hover{
+	background-color:#ccc;
+}
+.side-icon.active{
+	background-color:#ccc;
+}
+.chat-img{
+	margin:2px 2px 2px 0px;
+	height:28px;
+	width:28px;
+}
+#sidebar{
+	width:50px;
+	position:absolute;
+	left:0px;
+	top:50px;
+	bottom:0px;
+	background-color: #eee;
+	border-right:1px solid #ddd;
+}
+#pullout{
+	width:400px;			
+	position:absolute;
+	left:50px;
+	top:50px;
+	bottom:0px;
+	background-color: #eee;
+	border-right:1px solid #ddd;
+}
+.divchat{
+	background-color:#fff;
+	resize:none;				
+	height:430px;
+	overflow-y:auto;
+	word-wrap: break-word;
+	padding: 5px;
+	border-bottom:1px solid #ddd;
+}
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: 2.75em;
+
+
+
+
+
+
+
+
+
+
+    vertical-align: -15%;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
