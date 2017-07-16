@@ -78,11 +78,11 @@ you have the same details on both places.
 ```
 ### Optional Addons
 
-[Counter Core Deposit & Withdraw Addon](https://github.com/ColinMoulds/Counter-Core-Deposit-Withdraw)
+[Counter Core Deposit & Withdraw Addon](https://github.com/ColinMoulds/Counter-Core/tree/master/Counter-Core-Deposit)
 
-[Counter Core Coinflip Addon](https://github.com/ColinMoulds/Counter-Core-Coinflip)
+[Counter Core Coinflip Addon](https://github.com/ColinMoulds/Counter-Core/tree/master/Counter-Core-Coinflip)
 
-[Counter Core Roulette Addon](https://github.com/ColinMoulds/Counter-Core-Roulette)
+[Counter Core Roulette Addon](https://github.com/ColinMoulds/Counter-Core/tree/master/Counter-Core-Roulette)
 
 ## Built With
 
