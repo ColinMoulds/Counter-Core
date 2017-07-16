@@ -1,0 +1,559 @@
+/** NOTICES **/
+.notice
+{
+	background-color:#fafafa;
+	border-left:6px solid #7f7f84;
+	margin-bottom:10px;
+	-webkit-box-shadow:0 5px 8px -6px rgba(0,0,0,.2);
+	-moz-box-shadow:0 5px 8px -6px rgba(0,0,0,.2);
+	box-shadow:0 5px 8px -6px rgba(0,0,0,.2);
+	padding:15px;
+}
+
+.notice-sm
+{
+	font-size:80%;
+	padding:10px;
+}
+
+.notice-lg
+{
+	font-size:large;
+	padding:35px;
+}
+
+.notice-success
+{
+	border-color:#80D651;
+}
+
+.notice-success>strong
+{
+	color:#80D651;
+}
+
+.notice-info
+{
+	border-color:#45ABCD;
+}
+
+.notice-info>strong
+{
+	color:#45ABCD;
+}
+
+.notice-warning
+{
+	border-color:#FEAF20;
+}
+
+.notice-warning>strong
+{
+	color:#FEAF20;
+}
+
+.notice-danger
+{
+	border-color:#d73814;
+}
+
+.notice-danger>strong
+{
+	color:#d73814;
+}
+
+/** Notices end **/
+
+.avatar-small
+{
+	max-height: 20px;
+	max-width: 20px;
+}
+
+.staff-avatar
+{
+	width: 75px;
+	height: 75px;
+	background-size: 75px 75px;
+	position: relative;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.staff-nick
+{
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	opacity: 1;
+	line-height: 18px;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.staff-nick a, staff-nick a:visited, staff-nick a:link, staff-nick a:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.game-img
+{
+	width: 75px;
+	height: 75px;
+}
+
+.add-game img, .add-game p
+{
+	display: inline-block;
+}
+
+.add-game p
+{
+	font-size: 24px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.add-game-side-pick
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.add-game-side-pick img:hover
+{
+	cursor: pointer;
+}
+
+.add-game-side-pick small
+{
+	display: block;
+}
+
+footer p
+{
+	display: inline-block;
+}
+
+footer .text-right
+{
+	float: right;
+}
+
+footer .fa-facebook-square
+{
+	color: #43609C;
+}
+
+footer .fa-steam-square
+{
+	color: #222222;
+}
+
+/** Game **/
+.game-listed
+{
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+
+.game-listed img
+{
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.game-listed span
+{
+	font-size: 12px;
+}
+
+.game-listed .status
+{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.game-listed .open
+{
+	color: #4DB53C;
+}
+
+.game-listed .closed
+{
+	color: #D73814;
+}
+
+.game-listed .amount
+{
+	font-weight: bold;
+}
+
+.game-listed .amount i
+{
+	color: #158CBA;
+}
+
+.game-listed .amount img
+{
+	margin-left: 15px;
+}
+
+.game-list-header #header
+{
+	font-size: 18px;
+}
+
+.game-list-header #refresh
+{
+	float: right;
+	text-align: right;
+}
+
+.game-list-header p
+{
+	display: inline-block;
+}
+
+#game-list-container a
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.duel-avatar
+{
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+	border-radius: 2px;
+	position: relative;
+	margin: auto;
+}
+
+.duelicon
+{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	bottom: -10px;
+}
+.duelicon2
+{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	bottom: -10px;
+	left: 225px;
+}
+
+.left-side
+{
+	left: -10px !important;
+}
+
+.right-side
+{
+	right: -50px !important;
+}
+.right-side2
+{
+	right: -5px !important;
+}
+.left-side2
+{
+	left:1px !important;
+}
+.btn {
+    padding: 9px 12px 7px;
+    border-width: 0 1px 4px 1px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn-back {
+    color: #555555;
+    background-color: #eeeeee;
+    border-color: #e2e2e2;
+}
+.btn-lg {
+    color: #555555;
+    background-color: #eeeeee;
+    border-color: #e2e2e2;
+    left: -40px;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary {
+    background-color: #5d9cec !important;
+    border: 1px solid #5d9cec !important;
+    text-align: center;
+
+}
+.duel-animation
+{
+	width: 150px;
+	height: 150px;
+	-webkit-transform:rotateX(89deg) rotateY(89deg);
+}
+
+.add-game-input i
+{
+	color: #158CBA;
+}
+
+#balanceli .fa-diamond
+{
+	color: #158CBA;
+}
+
+#balanceli .fa-refresh:hover
+{
+	cursor: pointer;
+}
+
+.profile-userinfo
+{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.profile-container #img
+{
+	border-radius: 5px;
+	width: 120px;
+	height: 120px;
+	display: inline-block;
+	background-size: 120px 120px;
+}
+
+.top-table
+{
+	width: 100%;
+}
+
+.top-table img
+{
+	width: 35px;
+	height: 35px;
+	border-radius: 5px;
+}
+
+.top-table a
+{
+	text-decoration: none !important;
+}
+
+.top-table span
+{
+	margin-left: 15px;
+}
+
+.top-table td
+{
+	line-height: 35px;
+}
+
+.table tbody>tr>td
+{
+	vertical-align: middle;
+}
+
+#stats
+{
+	overflow: auto;
+}
+
+#stats p
+{
+	font-size: 20px;
+}
+
+.game-open-info
+{
+	color: green;
+}
+
+/** Admin panel **/
+.box 
+{
+	background:#fff;
+	transition:all 0.2s ease;
+	border:2px dashed #dadada;
+	margin-top: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-clip: padding-box;
+	padding:0 20px 20px 20px;
+	min-height:340px;
+}
+
+.box:hover 
+{
+	border:2px solid #525C7A;
+}
+
+.box span.box-title 
+{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.box .box-content 
+{
+	padding: 16px;
+	border-radius: 0 0 2px 2px;
+	background-clip: padding-box;
+	box-sizing: border-box;
+}
+.box .box-content p 
+{
+	color:#515c66;
+	text-transform:none;
+}
+
+
+.user-block img
+{
+	width: 125px;
+	height: auto;
+}
+
+.user-block p
+{
+	font-size: 16px;
+}
+
+.user-actions
+{
+	margin-top: 25px;
+}
+
+.chat-container
+{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin-bottom: 0px !important;
+	width: 390px;
+}
+
+#chatScrollable
+{
+	max-height: 250px;
+	overflow-y: scroll;
+}
+
+#chatMessages
+{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.chat-header
+{
+	font-size: 16px;
+	border-bottom: 1px solid #EEE;
+	margin-bottom: 10px;
+}
+
+.chat-avatar
+{
+	width: 20px;
+	height: auto;
+}
+
+.chat-msg-nick
+{
+	font-weight: bold;
+}
+
+.chat-msg
+{
+	display: block;
+	padding-bottom: 5px;
+}
+
+.deposit
+{
+	color: #67B68E;
+}
+
+.withdraw
+{
+	color: #BC5652;
+}
+
+.wd-header
+{
+	font-size: 21px;
+}
+
+.wd-bal
+{
+	display: block;
+}
+
+.wd-block-empty
+{
+	background-color: #777;
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+}
+
+.wd-blocks-container
+{
+	margin-top: 15px;
+}
+
+.wd-block
+{
+	background-color: #333;
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+	background-size: 100px auto;
+	background-position: 0px 5px;
+	background-repeat: no-repeat;
+	position: relative;
+	cursor: pointer;
+}
+
+.wd-name
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	color: #fff;
+	font-size: 12px;
+}
+
+.wd-price
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	font-size: 12px;
+	background-color: #449D44;
+	border-bottom-left-radius: 2px;
+	padding: 2px;
+}
+
+.freecoins
+{
+	color: #158CBA;
+}
+
+.clickable
+{
+	cursor: pointer;   
+}
