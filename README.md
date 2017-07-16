@@ -4,7 +4,6 @@
 [![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://github.com/ColinMoulds/Counter-Core#prerequisites)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/ColinMoulds/Counter-Core/graphs/contributors)
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[<img src="https://discordapp.com/api/guilds/318190682957283329/widget.png?style=shield">](https://discord.me/cdev)
 
 # Counter Core Script
 
