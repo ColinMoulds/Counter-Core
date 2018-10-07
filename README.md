@@ -86,7 +86,7 @@ you have the same details on both places.
 ## Built With
 
 * [Node](https://github.com/nodejs/node/blob/master/README.md) - JavaScript Web Runtime
-* [Npm](https://github.com/npm/npm) - Package Managemer
+* [Npm](https://github.com/npm/npm) - Package Manager
 
 ## Authors
 
